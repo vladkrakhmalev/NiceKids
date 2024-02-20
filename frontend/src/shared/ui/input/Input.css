@@ -1,0 +1,30 @@
+.input {
+  outline: none;
+  display: block;
+  min-width: 250px;
+  padding: 10px 15px;
+  border: 1px solid #CCCCCC;
+  border-radius: 5px;
+  line-height: 1;
+  color: #444;
+  transition: .2s;
+  background-color: #fff;
+}
+
+.input:focus {
+  box-shadow: 0 0 0 2px #ddd;
+}
+
+.input::placeholder {
+  color: #ccc;
+}
+
+.input._valid {
+  border-color: #22D4B4;
+  box-shadow: 0 0 0 2px #D8F6F1;
+}
+
+.input._invalid {
+  border-color: #D42222;
+  box-shadow: 0 0 0 2px #F6D8D8;
+}

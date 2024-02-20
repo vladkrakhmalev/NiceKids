@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Nunito';
+  color: #444;
+  font-size: 18px;
+}
+
+body {
+  background-color: #FFFAF2;
+}
+
+h1 {
+  font-size: 40px;
+  line-height: 1.2;
+  font-weight: 900;
+}
+
+h2 {
+  font-size: 30px;
+  line-height: 1.2;
+  font-weight: 900;
+}
+
+h3 {
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 900;
+}
+
+p {
+  line-height: 1.5;
+  font-weight: normal;
+}
+
+a {
+  color: #22D4B4;
+  text-decoration: underline;
+  cursor: pointer;
+}

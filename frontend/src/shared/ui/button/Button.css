@@ -1,0 +1,28 @@
+.button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  padding: 10px 30px;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 20px;
+  transition: .2s;
+  line-height: 1.2;
+}
+
+.button:hover {
+  opacity: .8;
+}
+
+.button._main {
+  background-color: #22D4B4;
+  color: #fff;
+}
+
+.button._additional {
+  background-color: #D8F6F1;
+}
+
+.button._dangerous {
+  background-color: #F6D8D8;
+}
