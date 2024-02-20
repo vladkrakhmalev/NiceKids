@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>Покупки пользователя</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <h2>Покупки</h2>
+    <ul>
+        {% for purchase in purchases %}
+        <li>Курс: {{ purchase.course.title }} - Статус: {{ purchase.purchase_status }} - Дата: {{ purchase.purchase_date
+            }}
+        </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

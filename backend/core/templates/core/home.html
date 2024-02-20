@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная страница</title>
+</head>
+<body>
+    <h1>Добро пожаловать в школу раннего развития!</h1>
+    <p>Здесь вы найдете курсы и уроки для своих детей.</p>
+
+    <!-- Кнопки для навигации -->
+    <div>
+        <a href="{% url 'home' %}" style="margin-right: 10px;">Главная</a>
+        <a href="{% url 'course_list' %}" style="margin-right: 10px;">Курсы</a>
+        <a href="{% url 'about' %}" style="margin-right: 10px;">О нас</a>
+        <a href="{% url 'contact' %}" style="margin-right: 10px;">Контакты</a>
+    </div>
+</body>
+</html>
