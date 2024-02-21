@@ -1,0 +1,17 @@
+.admin {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.admin__nav {
+  background-color: #fff;
+  padding: 50px;
+  overflow-y: auto;
+}
+
+.admin__content {
+  padding: 50px;
+  overflow-y: auto;
+}

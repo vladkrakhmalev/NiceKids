@@ -1,5 +1,5 @@
 import './index.css'
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom"
 import {
   MainPage, 
   ProfilePage, 
@@ -10,7 +10,9 @@ import {
   CoursesAdminPage, 
   CourseAdminPage, 
   LessonAdminPage,
-  AuthAdminPage
+  AuthAdminPage,
+  StatisticsAdminPage,
+  SettingsAdminPage
 } from '@/pages'
 
 export const Routing = () => {
@@ -33,6 +35,8 @@ export const Routing = () => {
               <Route path="/admin/courses/:id/:id" element={<LessonAdminPage/>} />
             </Route>
           </Route>
+          <Route path='/admin/statistics' element={<StatisticsAdminPage/>} />
+          <Route path='/admin/settings' element={<SettingsAdminPage/>} />
         </Route>
         <Route path='/admin/auth' element={<AuthAdminPage/>} />
 

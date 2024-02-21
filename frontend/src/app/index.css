@@ -39,3 +39,7 @@ a {
   text-decoration: underline;
   cursor: pointer;
 }
+
+.admin__title {
+  margin-bottom: 20px;
+}

@@ -1,0 +1,12 @@
+.courses__item {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  max-width: 500px;
+  transition: .2s;
+  cursor: pointer;
+}
+
+.courses__item:hover {
+  transform: scale(1.03);
+}

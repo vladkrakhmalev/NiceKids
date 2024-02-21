@@ -1,0 +1,14 @@
+.admin__big-btn {
+  border: 1px solid #22D4B4;
+  border-radius: 10px;
+  background-color: transparent;
+  cursor: pointer;
+  transition: .2s;
+  color: #22D4B4;
+  font-weight: 600;
+  font-style: 20px;
+}
+
+.admin__big-btn:hover {
+  transform: scale(1.03);
+}

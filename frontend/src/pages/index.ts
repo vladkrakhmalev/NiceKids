@@ -1,8 +1,10 @@
-export { MainAdminPage } from './MainAdminPage'
+export { MainAdminPage } from './main-admin/ui/MainAdminPage'
 export { AuthAdminPage } from './auth-admin/ui/AuthAdminPage'
-export { CoursesAdminPage } from './CoursesAdminPage'
+export { CoursesAdminPage } from './courses-admin/ui/CoursesAdminPage'
 export { CourseAdminPage } from './CourseAdminPage'
 export { LessonAdminPage } from './LessonAdminPage'
+export { StatisticsAdminPage } from './StatisticsAdminPage'
+export { SettingsAdminPage } from './SettingsAdminPage'
 
 export { MainPage } from './MainPage'
 export { ProfilePage } from './ProfilePage'

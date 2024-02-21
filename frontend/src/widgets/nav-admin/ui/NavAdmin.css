@@ -1,0 +1,21 @@
+.admin-menu__list {
+  list-style: none;
+  display: grid;
+  grid-gap: 10px;
+}
+
+.admin-menu__item {
+  font-size: 20px;
+  font-weight: 900;
+  color: #444;
+  text-decoration: none;
+  transition: .2s;
+}
+
+.admin-menu__item:hover {
+  color: #22D4B4;
+}
+
+.admin-menu__item.active {
+  color: #22D4B4;
+}
