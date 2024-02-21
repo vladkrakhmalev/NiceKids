@@ -1,30 +1,22 @@
 import React from "react"
 import './Input.css'
 
-type IInputProps = {
+type TInputProps = {
   type: 'text' | 'number' | 'email' | 'password' | 'file',
   name: 'email' | 'password',
-  status?: 'valid' | 'invalid',
+  error?: boolean,
   children: string,
   value: string,
-  onChange: (name: string, value: string) => void
+  onChange: (e:React.ChangeEvent<HTMLInputElement>) => void
 }
 
-export const Input: React.FC<IInputProps> = ({type, name, status, children, value, onChange}) => {
-
-  function handleChange(e:React.ChangeEvent<HTMLInputElement>) {
-    const {name, value} = e.target
-    onChange(name, value)
-  }
+export const Input: React.FC<TInputProps> = ({error, children, ...props}) => {
 
   return(
     <input
-      value={value}
-      type={type}
-      name={name}
-      className={'input' + (status ? ` _${status}` : '')} 
+      {...props}
+      className={'input' + (error ? ` _error` : '')} 
       placeholder={children}
-      onChange={handleChange}
     />
   )
 }

@@ -19,12 +19,7 @@
   color: #ccc;
 }
 
-.input._valid {
-  border-color: #22D4B4;
-  box-shadow: 0 0 0 2px #D8F6F1;
-}
-
-.input._invalid {
+.input._error {
   border-color: #D42222;
   box-shadow: 0 0 0 2px #F6D8D8;
 }

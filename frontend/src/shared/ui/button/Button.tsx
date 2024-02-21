@@ -3,6 +3,7 @@ import './Button.css'
 
 type IButtonProps = {
   theme: 'main' | 'additional' | 'dangerous',
+  type: 'submit'
   children: string,
   onClick?: () => void
 }
