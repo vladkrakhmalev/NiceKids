@@ -1,0 +1,7 @@
+/venv
+.idea/
+main.puml
+
+frontend/node_modules/
+frontend/build/
+.gitignore
